@@ -1,0 +1,30 @@
+.containerSvg {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.squiggle {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  stroke-dasharray: 4464;
+}
+
+/* .squiggle path {
+  stroke: #8d1f1f;
+} */
+
+.squiggle.animate {
+  opacity: 1;
+  animation: drawPath 3.5s ease;
+}
+
+@keyframes drawPath {
+  from {
+    stroke-dashoffset: 4464;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}

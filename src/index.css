@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  height: 100vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.404);
+  font-size: 3.2em;
+  line-height: 1.1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
