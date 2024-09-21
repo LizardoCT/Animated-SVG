@@ -6,7 +6,7 @@ const AnimatedSVG = () => {
 
   useEffect(() => {
     const svg = svgRef.current
-    // Obtiene la longitud total del path
+    // Get the total path length
     // const path = svg.querySelector('path')
     // const pathLength = path.getTotalLength()
     // console.log('Path Length:', pathLength)
